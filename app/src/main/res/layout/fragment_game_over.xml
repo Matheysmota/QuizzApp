@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.gameover.GameOverFragment">
+
+    <TextView
+        android:id="@+id/gameOverPhraseTextView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="It wasn't this time"
+        android:textAlignment="center"
+        android:textColor="@color/background_splash_screen"
+        android:textSize="32sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameOverLogoImageView"
+        />
+
+    <TextView
+        android:id="@+id/createdByTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Created by 2M"
+        android:textColor="#DC000000"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/emoji_game_over"
+        app:layout_constraintBottom_toBottomOf="@+id/gameOverPhraseTextView"
+        app:layout_constraintEnd_toStartOf="@+id/gameOverGuidelineTwo"
+        app:layout_constraintStart_toStartOf="@+id/gameOverGuidelineOne"
+        android:layout_marginStart="130dp"
+        android:layout_marginBottom="10dp"/>
+
+
+    <ImageView
+        android:id="@+id/gameOverLogoImageView"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/quizz_app_logo_imageview"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/tryAgainImageView"
+        android:layout_width="308dp"
+        android:layout_height="446dp"
+        android:src="@drawable/game_over"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/gameOverButton"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="@color/background_splash_screen"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Try Again"
+        android:textAllCaps="false"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gameOverGuidelineOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="81dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gameOverGuidelineTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="331dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
