@@ -8,7 +8,7 @@ Esse aplicativo foi criado para aprimorar minhas habilidades e conhecimentos em 
 O layout do app foi baseado no ConstraintLayout, sendo utilizado elementos do MaterialDesign, e buscando sempre manter as boas práticas de acessibilidade.
 
 Tecnologias usadas: ViewBinding, Fragments, AndroidX, ConstraintLayout.
-<p align="center">
-  <img width="wrap_content" height="500" src="https://user-images.githubusercontent.com/92114044/158701926-07d412c6-e59a-4524-b35b-dfcf67937361.mp4">
-</p>
+
+https://user-images.githubusercontent.com/92114044/158701926-07d412c6-e59a-4524-b35b-dfcf67937361.mp4
+
 
